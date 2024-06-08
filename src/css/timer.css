@@ -1,0 +1,14 @@
+.timer{
+  display: flex;
+  margin-top: 20px;
+  font-size: 25px;
+
+
+}
+.label{
+  padding-right: 18px;
+}
+#datetime-picker{
+  width: 400px;
+  margin-top: 20px;
+}
