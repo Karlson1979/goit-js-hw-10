@@ -8,7 +8,7 @@ const formEl = document.querySelector('.form');
 formEl.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  const formData = new FormData(formEl);
+  const formData = new FormData(event.target);
   const delay = parseInt(formData.get('delay'), 10);
   const state = formData.get('state');
   const status = state === 'fulfilled';
